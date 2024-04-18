@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/header"
-import Body from "../Components/body";
+import NewForm from "../Components/newForm";
+import AllForm from "../Components/allForms";
 
 const Home = () => {
     return (
@@ -8,8 +9,11 @@ const Home = () => {
             {/* header of the page */}
             <Header/>
 
-            {/* body of the main page */}
-            <Body/>
+            {/* new form */}
+            <NewForm/>
+
+            {/* all forms */}
+            <AllForm/>
         </div>
     )
 }
