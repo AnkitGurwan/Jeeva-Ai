@@ -4,7 +4,7 @@ import FormContext from "./FormContext";
 const FormState = ( props ) => {
     
     const [allForms, setAllForms] = useState([]);
-    const url = "http://localhost:5000";
+    const url = process.env.REACT_APP_BACKEND_URL;
 
     const getAllForms = async () => {
         const response = await fetch(`${url}/form/getAllForms`, {
