@@ -1,4 +1,4 @@
-Website Hosted(https://jeeva-ai-frontend.vercel.app/)
+Website Hosted  [here](https://jeeva-ai-frontend.vercel.app/)
 
 ## Getting Started Locally
 
